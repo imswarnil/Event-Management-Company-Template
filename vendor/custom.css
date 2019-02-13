@@ -1,0 +1,137 @@
+.social-icon
+{
+	display:inline-block;
+}
+.social-icon a{
+	color:white;
+	padding:8px;
+	font-size:10px;
+}
+.tabs .tab	a {
+	color:white;
+}
+
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.tabs .indicator
+{
+	background-color:white;
+}
+.parallax-container .parallax 
+{
+	opacity:0.15;
+	background-color:white;
+}
+.parallax-container 
+{
+	height:auto;
+}
+.service
+{
+	margin-top:20px;
+}
+hr
+{
+	height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 172, 193, 0.7);
+}
+.top
+{
+ margin-top:50px;	
+}
+
+
+
+.cover {
+  display: inline-block;
+  height: 200px;
+	width: 200px;
+	border-radius: 8px;
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		width : 100%;
+		position: relative;
+		transform: translate(0%, 0%);
+		top: 0;
+		left: 0;
+	}
+	.cover {
+		display: block;
+		height: 200px;
+		width: 320px;
+		margin: 15px auto;
+	}
+}
+
+.atvImg {
+	border-radius: 8px;
+	transform-style: preserve-3d;
+	-webkit-tap-highlight-color: rgba(#000,0);
+}
+
+.atvImg img {
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(14,21,47,0.25);
+}
+
+.atvImg-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	transition: all 0.2s ease-out;
+}
+
+.atvImg-container.over .atvImg-shadow {
+	box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
+}
+
+.atvImg-layers {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	transform-style: preserve-3d;
+}
+
+.atvImg-rendered-layer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%; 
+	left: 0%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	background-size: cover;
+	transition: all 0.1s ease-out;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.atvImg-shadow {
+	position: absolute;
+	top: 5%; 
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	transition: all 0.2s ease-out;
+	box-shadow: 0 8px 30px rgba(14,21,47,0.6);
+}
+
+.atvImg-shine {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+	border-radius: 8px;
+	background: linear-gradient(135deg, rgba(255,255,255,.25) 0%,rgba(255,255,255,0) 60%);
+}
+
